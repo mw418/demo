@@ -44,6 +44,7 @@ def getresponse( url):
             time.sleep(0.2)
         r.close()
 if __name__ == '__main__':
+    # 网站地址
     url = 'https://www.93book.com/?fromuid=249947'
     list1=[]
     for i in range(7):
