@@ -44,7 +44,7 @@ def getresponse( url):
             time.sleep(0.2)
         r.close()
 if __name__ == '__main__':
-    url = 'https://www.93book.com/?fromuid=511549'
+    url = 'https://www.93book.com/?fromuid=249947'
     list1=[]
     for i in range(7):
         list1.append(threading.Thread(target=getresponse, args=(url,)))
